@@ -1,0 +1,221 @@
+[
+  {
+    "id": 1,
+    "name": "New York City Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1551927336-09d50efd69cd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "International",
+    "marathon_category": "42K",
+    "date": "2025-11-02",
+    "location": "New York, USA",
+    "entry_fee": 250,
+    "description": "One of the world's largest marathons, running through all five boroughs of NYC."
+  },
+  {
+    "id": 2,
+    "name": "London Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1452626038306-9aae5e071dd3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFyYXRob258ZW58MHx8MHx8fDA%3D",
+    "marathon_category": "42K",
+    "date": "2025-04-27",
+    "location": "London, UK",
+    "entry_fee": 220,
+    "description": "A popular marathon through the heart of London, along the Thames."
+  },
+  {
+    "id": 3,
+    "name": "Berlin Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1596460658047-1826d5921c56?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "International",
+    "marathon_category": "42K",
+    "date": "2025-09-28",
+    "location": "Berlin, Germany",
+    "entry_fee": 200,
+    "description": "A fast and flat course, great for breaking personal records."
+  },
+  {
+    "id": 4,
+    "name": "Tokyo Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1524646349956-1590eacfa324?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFyYXRob258ZW58MHx8MHx8fDA%3D",
+    "category": "International",
+    "marathon_category": "10K",
+    "date": "2025-03-02",
+    "location": "Tokyo, Japan",
+    "entry_fee": 170,
+    "description": "A prestigious marathon attracting elite runners from around the world."
+  },
+  {
+    "id": 5,
+    "name": "Boston Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1613937574892-25f441264a09?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "International",
+    "marathon_category": "42K",
+    "date": "2025-04-21",
+    "location": "Boston, USA",
+    "entry_fee": 180,
+    "description": "The world's oldest annual marathon with a challenging course."
+  },
+  {
+    "id": 6,
+    "name": "Chicago Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "International",
+    "marathon_category": "21K",
+    "date": "2025-10-12",
+    "location": "Chicago, USA",
+    "entry_fee": 205,
+    "description": "One of the six World Marathon Majors, held annually in the fall."
+  },
+  {
+    "id": 7,
+    "name": "Paris Marathon",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1664304830629-bdac1397d53c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWFyYXRob258ZW58MHx8MHx8fDA%3D",
+    "category": "International",
+    "marathon_category": "10K",
+    "date": "2025-04-06",
+    "location": "Paris, France",
+    "entry_fee": 160,
+    "description": "A scenic run past some of the most famous landmarks in Paris."
+  },
+  {
+    "id": 8,
+    "name": "Mumbai Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFyYXRob258ZW58MHx8MHx8fDA%3D",
+    "category": "National",
+    "marathon_category": "21K",
+    "date": "2025-01-19",
+    "location": "Mumbai, India",
+    "entry_fee": 30,
+    "description": "India's largest marathon attracting international and local runners."
+  },
+  {
+    "id": 9,
+    "name": "Sydney Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1519703936-c4a3b3eb88e4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "International",
+    "marathon_category": "42K",
+    "date": "2025-09-14",
+    "location": "Sydney, Australia",
+    "entry_fee": 150,
+    "description": "A beautiful course crossing the Sydney Harbour Bridge."
+  },
+  {
+    "id": 10,
+    "name": "Cape Town Marathon",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1664304814099-adb3a3255e7a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "International",
+    "marathon_category": "10K",
+    "date": "2025-10-19",
+    "location": "Cape Town, South Africa",
+    "entry_fee": 100,
+    "description": "Africa's first Abbott World Marathon Majors candidate race."
+  },
+  {
+    "id": 11,
+    "name": "Amsterdam Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1570004119777-2b1786b0e5bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "International",
+    "marathon_category": "21K",
+    "date": "2025-10-19",
+    "location": "Amsterdam, Netherlands",
+    "entry_fee": 120,
+    "description": "Flat and fast, with a route through the Rijksmuseum."
+  },
+  {
+    "id": 12,
+    "name": "Prague Marathon",
+    "thumbnail": "https://images.unsplash.com/flagged/photo-1556746834-cbb4a38ee593?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "International",
+    "marathon_category": "42K",
+    "date": "2025-05-04",
+    "location": "Prague, Czech Republic",
+    "entry_fee": 130,
+    "description": "Famous for its historical scenery and cobblestone streets."
+  },
+  {
+    "id": 13,
+    "name": "Bangkok Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1667791274080-49884d1f5f5c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "Regional",
+    "marathon_category": "10K",
+    "date": "2025-11-16",
+    "location": "Bangkok, Thailand",
+    "entry_fee": 60,
+    "description": "A night race featuring Bangkok's vibrant cityscape."
+  },
+  {
+    "id": 14,
+    "name": "Los Angeles Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1613206334619-c6bb9c203ef0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "National",
+    "marathon_category": "21K",
+    "date": "2025-03-16",
+    "location": "Los Angeles, USA",
+    "entry_fee": 170,
+    "description": "From the Dodger Stadium to Santa Monica Pier."
+  },
+  {
+    "id": 15,
+    "name": "Dubai Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1719299246550-fcb1765de878?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "International",
+    "marathon_category": "42K",
+    "date": "2025-01-24",
+    "location": "Dubai, UAE",
+    "entry_fee": 100,
+    "description": "Known for its flat course and prize money."
+  },
+  {
+    "id": 16,
+    "name": "Seoul Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1645822937278-5e84025713f3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "International",
+    "marathon_category": "21K",
+    "date": "2025-03-16",
+    "location": "Seoul, South Korea",
+    "entry_fee": 90,
+    "description": "A well-organized marathon in the capital of South Korea."
+  },
+  {
+    "id": 17,
+    "name": "Toronto Waterfront Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1719299180483-90a4b609a946?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "International",
+    "marathon_category": "42K",
+    "date": "2025-10-19",
+    "location": "Toronto, Canada",
+    "entry_fee": 135,
+    "description": "Popular for its flat course and lake views."
+  },
+  {
+    "id": 18,
+    "name": "Vienna City Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1596460456678-760115935178?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "category": "International",
+    "marathon_category": "21K",
+    "date": "2025-04-27",
+    "location": "Vienna, Austria",
+    "entry_fee": 110,
+    "description": "A classical city run with music along the route."
+  },
+  {
+    "id": 19,
+    "name": "Athens Marathon",
+    "thumbnail": "https://images.unsplash.com/photo-1719299246423-8be7d5209bc5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA0fHxtYXJhdGhvbnxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Historical",
+    "marathon_category": "42K",
+    "date": "2025-11-09",
+    "location": "Athens, Greece",
+    "entry_fee": 95,
+    "description": "Run the original marathon route from Marathon to Athens."
+  },
+  {
+    "id": 20,
+    "name": "Honolulu Marathon",
+    "thumbnail": "https://plus.unsplash.com/premium_photo-1663134231637-68651f643ffc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYxfHxtYXJhdGhvbnxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Recreational",
+    "marathon_category": "10K",
+    "date": "2025-12-14",
+    "location": "Honolulu, Hawaii, USA",
+    "entry_fee": 160,
+    "description": "A scenic marathon with no time limit, perfect for all runners."
+  }
+]
