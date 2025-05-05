@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/logo-sheet-sports-equipment-store-abstract-symbol_1084789-366-removebg-preview.png";
 
 const Footer = () => {
   return (
@@ -10,10 +11,13 @@ const Footer = () => {
             href="#"
             className="flex justify-center space-x-3 lg:justify-start"
           >
-            
-            <h1 className=" text-xl font-bold">
-              <span className=" text-3xl font-bold text-orange-600">R</span>un.
-            </h1>
+            <div className="flex justify-center items-center">
+              <img className="w-[70px]" src={logo} alt="" />
+              <h1 className=" text-xl font-bold">
+                <span className=" text-3xl font-bold text-orange-600">R</span>
+                un.
+              </h1>
+            </div>
           </a>
         </div>
         <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">
