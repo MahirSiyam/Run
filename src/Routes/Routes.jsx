@@ -5,6 +5,7 @@ import HomeLayout from "../layout/HomeLayout";
 import Home from "../pages/Home";
 import MyProfile from "../pages/MyProfile";
 import CardDetails from "../components/CardDetails";
+import ErrorPage from "../pages/ErrorPage";
 
   const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ import CardDetails from "../components/CardDetails";
         {
             path: "/my_profile",
             element: <MyProfile></MyProfile>
+        },
+        {
+          path: "/*",
+          element: <ErrorPage></ErrorPage>
         }
       ]
     },

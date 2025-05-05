@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router";
 
 const NewCardDetails = ({ details }) => {
-  console.log(details);
+//   console.log(details);
 
   //   "id": 19,
   //   "name": "Athens Marathon",
@@ -15,21 +15,21 @@ const NewCardDetails = ({ details }) => {
   //   "description": "Run the original marathon route from Marathon to Athens."
 
   return (
-    <div className="card bg-base-100 shadow-sm">
-      <div className="flex gap-2">
+    <div className="card bg-orange-50 shadow-sm mt-3 p-5">
+      <div className="">
         <figure>
             <img src={details.thumbnail} alt="Shoes" />
         </figure>
         <div className="card-body">
-            <h2 className="card-title">{details.name}</h2>
-            <p>{details.description}</p>
-            <p>{details.category}</p>
-            <p>{details.marathon_category}</p>
-            <p>{details.date}</p>
-            <p>{details.location}</p>
-            <p>{details.entry_fee}</p>
-            <div className="card-actions justify-end">
-            <Link to={`/`} className="btn btn-primary">Back to home</Link>
+            <h2 className="card-title text-2xl">{details.name}</h2>
+            <p className="text-xl">{details.description}</p>
+            <p className="text-lg"><span className="font-bold">Category : </span>{details.category}</p>
+            <p className="text-lg"><span className="font-bold">Marathon Category : </span> {details.marathon_category}</p>
+            <p className="text-lg"><span className="font-bold">Date : </span>{details.date}</p>
+            <p className="text-lg"><span className="font-bold">Location : </span>{details.location}</p>
+            <p className="text-lg"><span className="font-bold">Entre Fee : </span>{details.entry_fee}$</p>
+            <div className="card-actions mt-5">
+            <Link to={`/`} className="btn bg-orange-500 font-bold text-gray-900">Back to home</Link>
             </div>
         </div>
       </div>

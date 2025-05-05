@@ -1,9 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router";
+import logo from "../assets/logo-sheet-sports-equipment-store-abstract-symbol_1084789-366-removebg-preview.png";
 
 const Navber = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-orange-100 shadow-sm bg-linear-to-r from-orange-50 to-orange-100 border-b-2 border-orange-50">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -36,21 +37,24 @@ const Navber = () => {
             </li>
           </ul>
         </div>
-        <a className=" text-xl font-bold"><span className=" text-3xl font-bold text-orange-600">R</span>un.</a>
+        <div className="flex justify-center items-center">
+        <img className="w-[70px]" src={logo} alt="" />
+        <a className=" text-xl font-bold"><span className=" text-4xl font-bold text-orange-600">R</span>un.</a>
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-5">
           <li>
-            <NavLink to={`/`} className={`font-bold`}>Home</NavLink>
+            <NavLink to={`/`} className={`font-bold text-gray-900`}>Home</NavLink>
           </li>
 
           <li>
-            <NavLink to={`/my_profile`} className={`font-bold`}>My Profile</NavLink>
+            <NavLink to={`/my_profile`} className={`font-bold text-gray-900`}>My Profile</NavLink>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Login</a>
+        <a className="btn bg-orange-500 border-0 shadow-none font-bold text-gray-900">Login</a>
       </div>
     </div>
   );

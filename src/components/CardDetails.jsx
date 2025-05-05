@@ -19,7 +19,7 @@ const CardDetails = () => {
     return (
         <div>
             <Suspense fallback ={<h1>LOADING.........</h1>}>
-            <NewCardDetails details = {details}></NewCardDetails>
+                <NewCardDetails details = {details}></NewCardDetails>
             </Suspense>
         </div>
     );
