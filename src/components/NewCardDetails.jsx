@@ -28,26 +28,26 @@ const handleSubmit = (e) => {
           </figure>
 
           <div className="card-body">
-            <h2 className="card-title text-2xl">{details.name}</h2>
-            <p className="text-xl">{details.description}</p>
-            <p className="text-lg">
-              <span className="font-bold">Category : </span>
+            <h2 className="card-title text-2xl text-gray-900">{details.name}</h2>
+            <p className="text-xl text-gray-900">{details.description}</p>
+            <p className="text-lg text-gray-900">
+              <span className="font-bold text-gray-900">Category : </span>
               {details.category}
             </p>
-            <p className="text-lg">
-              <span className="font-bold">Marathon Category : </span>{" "}
+            <p className="text-lg text-gray-900">
+              <span className="font-bold text-gray-900">Marathon Category : </span>{" "}
               {details.marathon_category}
             </p>
-            <p className="text-lg">
-              <span className="font-bold">Date : </span>
+            <p className="text-lg text-gray-900">
+              <span className="font-bold text-gray-900">Date : </span>
               {details.date}
             </p>
-            <p className="text-lg">
-              <span className="font-bold">Location : </span>
+            <p className="text-lg text-gray-900">
+              <span className="font-bold text-gray-900">Location : </span>
               {details.location}
             </p>
-            <p className="text-lg">
-              <span className="font-bold">Entre Fee : </span>
+            <p className="text-lg text-gray-900">
+              <span className="font-bold text-gray-900">Entre Fee : </span>
               {details.entry_fee}$
             </p>
             <div className="card-actions mt-5">
@@ -65,17 +65,18 @@ const handleSubmit = (e) => {
       <div className="hero bg-orange-50 border-t-8 border-white min-h-screen">
         <div className="hero-content flex-col ">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-10 text-gray-900">Reserve Your Seat!</h1>
+            <h1 className="text-5xl font-bold mb-10 text-gray-900">
+            Registration For Marathon</h1>
             
           </div>
           <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
             <div className="card-body">
-              <form onSubmit={handleSubmit} className="fieldset">
+              <form onSubmit={handleSubmit} className="fieldset space-y-3">
                 <label className="label font-bold text-lg">Name</label>
                 <input type="text" name="name" className="input" placeholder="Enter your name" required/>
                 <label className="label font-bold text-lg">Email</label>
                 <input type="email" name="email" className="input" placeholder="Enter your Email" required/>
-                <input className="btn hover:bg-orange-500 font-bold text-lg" type="submit" value="submit" />
+                <input className="btn bg-orange-500 font-bold text-lg" type="submit" value="submit" />
               </form>
             </div>
           </div>
