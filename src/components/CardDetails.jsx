@@ -1,4 +1,4 @@
-import React, { Suspense, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import NewCardDetails from './NewCardDetails';
 
@@ -18,9 +18,7 @@ const CardDetails = () => {
 
     return (
         <div>
-            <Suspense fallback ={<h1>LOADING.........</h1>}>
-                <NewCardDetails details = {details}></NewCardDetails>
-            </Suspense>
+            <NewCardDetails details = {details}></NewCardDetails>
         </div>
     );
 };

@@ -9,7 +9,6 @@ const Home = () => {
   const datas = useLoaderData();
   // console.log(datas);
 
-  window.scrollTo(0, 0);
 
   return (
     <div className="bg-orange-50">

@@ -84,17 +84,13 @@ const Navber = () => {
       </div>
       <div className="navbar-end">
 
-        {user && (
-          <div
-            className="tooltip tooltip-bottom"
-            data-tip={user.email}>
-            <div className="avatar cursor-pointer">
-              <div className="w-15 rounded-full">
-                <img src="https://img.daisyui.com/images/profile/demo/yellingcat@192.webp" />
-              </div>
+        <div className="tooltip tooltip-bottom" data-tip={user ? user.email : ""}>
+          <div className="avatar cursor-pointer">
+            <div className="w-15 rounded-full">
+              <img src={user ? user.photoURL : ""} alt="" />
             </div>
           </div>
-        )}
+        </div>
 
         <p>{user && user.email}</p>
 

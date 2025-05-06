@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
-
-import { ToastContainer, toast } from 'react-toastify';
+import Swal from "sweetalert2";
 
 
 const NewCardDetails = ({ details }) => {
@@ -15,7 +14,12 @@ const handleSubmit = (e) => {
     const name = form.name.value;
     const email = form.email.value;
 
-    toast("Submit Successfully" , name,email);
+    Swal.fire({
+      title: name,
+      text: email,
+      icon: "success",
+      draggable: true
+    });
 
 }
 
@@ -82,7 +86,6 @@ const handleSubmit = (e) => {
           </div>
         </div>
       </div>
-      <ToastContainer />
     </div>
   );
 };

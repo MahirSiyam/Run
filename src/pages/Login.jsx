@@ -1,8 +1,12 @@
 import React, { use } from "react";
-import { Link } from "react-router";
+import { Link, useLocation, useNavigate } from "react-router";
 import { AuthContext } from "../Provider/AuthProvider";
+import Swal from "sweetalert2";
 
 const Login = () => {
+
+    const location = useLocation();
+    const navigate = useNavigate();
 
     const {logIn} = use(AuthContext);
 
@@ -16,12 +20,21 @@ const Login = () => {
         // console.log({email , password});
 
         logIn(email , password)
-        .then(result => {
-            const user = result.user;
-            console.log(user);
+        .then(() => {
+            Swal.fire({
+                title: "Login Successfully!",
+                icon: "success",
+                draggable: true
+              });
+              navigate(`${location.state ? location.state : "/"}`);
         })
-        .catch(error => {
-            console.log(error);
+        .catch(() => {
+            Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Something went wrong!",
+                footer: '<a href="#">Why do I have this issue?</a>'
+              });
         })
     }
 
