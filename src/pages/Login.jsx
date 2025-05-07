@@ -3,7 +3,7 @@ import { Link, useLocation, useNavigate } from "react-router";
 import { AuthContext } from "../Provider/AuthProvider";
 import Swal from "sweetalert2";
 import { GoogleAuthProvider } from "firebase/auth";
-import { Eye, EyeOff } from "lucide-react"; // Optional: for icons, or use plain text toggle
+import { Eye, EyeOff } from "lucide-react";
 
 const Login = () => {
   const { logIn , googleLogIn , forgetPassword} = use(AuthContext);
@@ -12,22 +12,6 @@ const Login = () => {
 
   const [showPassword, setShowPassword] = useState(false);
   const emailRef = useRef();
-
-
-  // const handleForgetPassword = (e) => {
-  //   e.preventDefault();
-
-  //   const email = emailRef.current.value;
-
-  //   forgetPassword(email)
-  //   .then(result => {
-  //    alert(result);
-  //   })
-  //   .catch(error => {
-  //     alert(error);
-  //   })
-  // }
-
 
   // forget password
   const handleForgetPassword = (e) => {

@@ -82,7 +82,7 @@ const Navber = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end space-x-2">
+      <div className="navbar-end space-x-4">
 
         <div className="tooltip tooltip-bottom" data-tip={user ? user.email : ""}>
           <div className="avatar cursor-pointer">
@@ -91,8 +91,6 @@ const Navber = () => {
             </div>
           </div>
         </div>
-
-        <p>{user && user.email}</p>
 
         {user ? (
           <button
