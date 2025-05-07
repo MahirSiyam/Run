@@ -2,13 +2,44 @@ import React, { use } from "react";
 import { Link, useLocation, useNavigate } from "react-router";
 import { AuthContext } from "../Provider/AuthProvider";
 import Swal from "sweetalert2";
+import { GoogleAuthProvider } from "firebase/auth";
 
 const Login = () => {
+
+  const {logIn , googleLogIn} = use(AuthContext);
 
     const location = useLocation();
     const navigate = useNavigate();
 
-    const {logIn} = use(AuthContext);
+    // const {logIn} = use(AuthContext);
+
+
+    //  google log in
+   const provider = new GoogleAuthProvider;
+
+   const handleGoogleLogIn = (e) => {
+    e.preventDefault();
+     
+     googleLogIn(provider)
+     .then(() => {
+      Swal.fire({
+        title: "Login Successfully!",
+        icon: "success",
+        draggable: true
+      });
+      navigate(`${location.state ? location.state : "/"}`);
+       navigate("/");
+     })
+     .catch(() => {
+       Swal.fire({
+                icon: "error",
+                title: "Oops...",
+                text: "Something went wrong!",
+                footer: '<a href="#">Why do I have this issue?</a>'
+              });
+     })
+
+   }
 
     const handleLogIn = (e) => {
         e.preventDefault();
@@ -56,7 +87,7 @@ const Login = () => {
               <a className="link link-hover">Forgot password?</a>
             </div>
             <button type="submit" className="btn btn-neutral mt-4">Login</button>
-            <button type="submit" className="btn bg-white text-black border-[#e5e5e5]">
+            <button onClick={handleGoogleLogIn} type="submit" className="btn bg-white text-black border-[#e5e5e5]">
               <svg
                 aria-label="Google logo"
                 width="16"

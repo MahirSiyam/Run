@@ -2,13 +2,31 @@ import React, { use } from "react";
 import { Link, useNavigate } from "react-router";
 import { AuthContext } from "../Provider/AuthProvider";
 import Swal from "sweetalert2";
+import { GoogleAuthProvider } from "firebase/auth";
 
 const Register = () => {
 
     const navigate = useNavigate();
 
-    const {createUser , setUser , updateUser} = use(AuthContext);
+    const {createUser , setUser , updateUser , googleLogIn} = use(AuthContext);
 
+    // google log in
+    const provider = new GoogleAuthProvider;
+    const handleGoogleLogIn = (e) => {
+      e.preventDefault();
+      
+      googleLogIn(provider)
+      .then(result => {
+        console.log(result);
+        navigate("/");
+      })
+      .catch(error => {
+        console.log(error);
+      })
+
+    }
+
+    // email password sign in
     const handleRegister = (e) => {
         e.preventDefault();
 
@@ -42,7 +60,8 @@ const Register = () => {
                       text: "Something went wrong!",
                       footer: '<a href="#">Why do I have this issue?</a>'
                     });
-        })
+        });
+
     }
 
   return (
@@ -82,7 +101,7 @@ const Register = () => {
               <a className="link link-hover">Forgot password?</a>
             </div>
             <button type="submit" className="btn btn-neutral mt-4">Register</button>
-            <button type="submit" className="btn bg-white text-black border-[#e5e5e5]">
+            <button onClick={handleGoogleLogIn} type="submit" className="btn bg-white text-black border-[#e5e5e5]">
               <svg
                 aria-label="Google logo"
                 width="16"

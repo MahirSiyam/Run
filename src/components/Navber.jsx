@@ -82,12 +82,12 @@ const Navber = () => {
           </li>
         </ul>
       </div>
-      <div className="navbar-end">
+      <div className="navbar-end space-x-2">
 
         <div className="tooltip tooltip-bottom" data-tip={user ? user.email : ""}>
           <div className="avatar cursor-pointer">
-            <div className="w-15 rounded-full">
-              <img src={user ? user.photoURL : ""} alt="" />
+            <div className="w-13 rounded-full">
+              <img src={user ? user.photoURL : "https://img.freepik.com/premium-vector/user-profile-icon-flat-style-member-avatar-vector-illustration-isolated-background-human-permission-sign-business-concept_157943-15752.jpg?semt=ais_hybrid&w=740"} alt="" />
             </div>
           </div>
         </div>
