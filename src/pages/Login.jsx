@@ -1,93 +1,160 @@
-import React, { use } from "react";
+import React, { use, useRef, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router";
 import { AuthContext } from "../Provider/AuthProvider";
 import Swal from "sweetalert2";
 import { GoogleAuthProvider } from "firebase/auth";
+import { Eye, EyeOff } from "lucide-react"; // Optional: for icons, or use plain text toggle
 
 const Login = () => {
+  const { logIn , googleLogIn , forgetPassword} = use(AuthContext);
+  const location = useLocation();
+  const navigate = useNavigate();
 
-  const {logIn , googleLogIn} = use(AuthContext);
-
-    const location = useLocation();
-    const navigate = useNavigate();
-
-    // const {logIn} = use(AuthContext);
+  const [showPassword, setShowPassword] = useState(false);
+  const emailRef = useRef();
 
 
-    //  google log in
-   const provider = new GoogleAuthProvider;
+  // const handleForgetPassword = (e) => {
+  //   e.preventDefault();
 
-   const handleGoogleLogIn = (e) => {
+  //   const email = emailRef.current.value;
+
+  //   forgetPassword(email)
+  //   .then(result => {
+  //    alert(result);
+  //   })
+  //   .catch(error => {
+  //     alert(error);
+  //   })
+  // }
+
+
+  // forget password
+  const handleForgetPassword = (e) => {
     e.preventDefault();
-     
-     googleLogIn(provider)
-     .then(() => {
-      Swal.fire({
-        title: "Login Successfully!",
-        icon: "success",
-        draggable: true
-      });
-      navigate(`${location.state ? location.state : "/"}`);
-       navigate("/");
-     })
-     .catch(() => {
-       Swal.fire({
-                icon: "error",
-                title: "Oops...",
-                text: "Something went wrong!",
-                footer: '<a href="#">Why do I have this issue?</a>'
-              });
-     })
-
-   }
-
-    const handleLogIn = (e) => {
-        e.preventDefault();
-
-        const form = e.target;
-        const email = form.email.value;
-        const password = form.password.value;
-
-        // console.log({email , password});
-
-        logIn(email , password)
-        .then(() => {
-            Swal.fire({
-                title: "Login Successfully!",
-                icon: "success",
-                draggable: true
-              });
-              navigate(`${location.state ? location.state : "/"}`);
-        })
-        .catch(() => {
-            Swal.fire({
-                icon: "error",
-                title: "Oops...",
-                text: "Something went wrong!",
-                footer: '<a href="#">Why do I have this issue?</a>'
-              });
-        })
+    const email = emailRef.current.value;
+  
+    if (!email) {
+      Swal.fire("Please enter your email address.");
+      return;
     }
+  
+    forgetPassword(email)
+      .then(() => {
+        Swal.fire("Check your email", "We've sent a password reset link.", "success");
+      })
+      .catch((error) => {
+        Swal.fire("Error", error.message, "error");
+      });
+  };
+  
+
+  // google log in
+  const provider = new GoogleAuthProvider();
+
+  const handleGoogleLogIn = (e) => {
+    e.preventDefault();
+    googleLogIn(provider)
+      .then(() => {
+        Swal.fire({
+          title: "Login Successfully!",
+          icon: "success",
+          draggable: true,
+        });
+        navigate(`${location.state ? location.state : "/"}`);
+      })
+      .catch(() => {
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Something went wrong!",
+          footer: '<a href="#">Why do I have this issue?</a>',
+        });
+      });
+  };
+
+  const handleLogIn = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    const email = form.email.value;
+    const password = form.password.value;
+
+    logIn(email, password)
+      .then(() => {
+        Swal.fire({
+          title: "Login Successfully!",
+          icon: "success",
+          draggable: true,
+        });
+        navigate(`${location.state ? location.state : "/"}`);
+      })
+      .catch(() => {
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Something went wrong!",
+          footer: '<a href="#">Why do I have this issue?</a>',
+        });
+      });
+  };
 
   return (
     <div className="flex justify-center items-center mt-20">
       <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-            <h2 className="font-semibold text-2xl text-center py-2">Login Your Account</h2>
+        <h2 className="font-semibold text-2xl text-center py-2">
+          Login Your Account
+        </h2>
         <div className="card-body">
           <form onSubmit={handleLogIn} className="fieldset">
-
             {/* email */}
             <label className="label">Email</label>
-            <input type="email" name="email" className="input" placeholder="Email" />
+            <input
+              type="email"
+              name="email"
+              className="input"
+              placeholder="Email"
+              ref={emailRef}
+              required
+            />
 
             {/* password */}
             <label className="label">Password</label>
-            <input type="password" name="password" className="input" placeholder="Password" />
-            <div>
-              <a className="link link-hover">Forgot password?</a>
+            <div className="relative">
+              <input
+                type={showPassword ? "text" : "password"}
+                name="password"
+                className="input w-full pr-10"
+                placeholder="Password"
+                required
+              />
+              <button
+                type="button"
+                className="absolute right-2 top-2"
+                onClick={() => setShowPassword(!showPassword)}
+                tabIndex={-1}
+              >
+                {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
+              </button>
             </div>
-            <button type="submit" className="btn btn-neutral mt-4">Login</button>
-            <button onClick={handleGoogleLogIn} type="submit" className="btn bg-white text-black border-[#e5e5e5]">
+
+            <div>
+              {/* <a onClick={handleForgetPassword} className="link link-hover">Forgot password?</a> */}
+
+              <a
+  onClick={handleForgetPassword}
+  className={`link link-hover ${!emailRef.current?.value && "pointer-events-none opacity-50"}`}
+>
+  Forgot password?
+</a>
+            </div>
+            <button type="submit" className="btn btn-neutral mt-4">
+              Login
+            </button>
+            <button
+              onClick={handleGoogleLogIn}
+              type="button"
+              className="btn bg-white text-black border-[#e5e5e5]"
+            >
               <svg
                 aria-label="Google logo"
                 width="16"
@@ -117,7 +184,12 @@ const Login = () => {
               </svg>
               Login with Google
             </button>
-            <p className="text-center font-bold pt-5">Don't have an account? Click <Link to={`/auth/register`} className="text-orange-500">Register</Link></p>
+            <p className="text-center font-bold pt-5">
+              Don't have an account? Click{" "}
+              <Link to={`/auth/register`} className="text-orange-500">
+                Register
+              </Link>
+            </p>
           </form>
         </div>
       </div>

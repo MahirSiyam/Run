@@ -1,14 +1,17 @@
-import React, { use } from "react";
+import React, { use, useState } from "react";
 import { Link, useNavigate } from "react-router";
 import { AuthContext } from "../Provider/AuthProvider";
 import Swal from "sweetalert2";
 import { GoogleAuthProvider } from "firebase/auth";
+import { Eye, EyeOff } from "lucide-react";
 
 const Register = () => {
 
     const navigate = useNavigate();
 
     const {createUser , setUser , updateUser , googleLogIn} = use(AuthContext);
+
+    const [showPassword , setShowPassword] = useState(false);
 
     // google log in
     const provider = new GoogleAuthProvider;
@@ -87,16 +90,23 @@ const Register = () => {
 
             {/* password */}
             <label className="label">Password</label>
-            <input
-              type="password"
-              name="password"
-              className="input"
-              placeholder="Password"
-              minlength="8"
-              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-              title="Must be more than 8 characters, including number, lowercase letter, uppercase letter"
-              required
-            />
+            <div className="relative">
+              <input
+                type={showPassword ? "text" : "password"}
+                name="password"
+                className="input w-full pr-10"
+                placeholder="Password"
+                required
+              />
+              <button
+                type="button"
+                className="absolute right-2 top-2"
+                onClick={() => setShowPassword(!showPassword)}
+                tabIndex={-1}
+              >
+                {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
+              </button>
+            </div>
             <div>
               <a className="link link-hover">Forgot password?</a>
             </div>
