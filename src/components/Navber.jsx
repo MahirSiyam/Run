@@ -58,6 +58,12 @@ const Navber = () => {
             <li>
               <NavLink to={`/my_profile`}>My Profile</NavLink>
             </li>
+
+            <li>
+            <NavLink to={`/blog`} className={`font-bold text-gray-900`}>
+              Marathon News
+            </NavLink>
+          </li>
           </ul>
         </div>
         <div className="flex justify-center items-center">
@@ -78,6 +84,12 @@ const Navber = () => {
           <li>
             <NavLink to={`/my_profile`} className={`font-bold text-gray-900`}>
               My Profile
+            </NavLink>
+          </li>
+
+          <li>
+            <NavLink to={`/blog`} className={`font-bold text-gray-900`}>
+              Marathon News
             </NavLink>
           </li>
         </ul>
