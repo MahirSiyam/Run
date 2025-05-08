@@ -65,8 +65,9 @@ const AuthProvider = ({children}) => {
     const forgetPassword = (email) => {
         return sendPasswordResetEmail(auth , email);
     }
+   
 
-    console.log(user);
+    // console.log(user);
 
     const authData = {
         user,

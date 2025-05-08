@@ -21,7 +21,7 @@ const MyProfile = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row lg:gap-84 gap-6 bg-orange-50 p-6 rounded-lg items-center shadow-md max-w-6xl mx-auto my-6 p-10">
+    <div className="flex flex-col lg:flex-row lg:gap-84 gap-6 bg-orange-50 p-10 rounded-lg items-center shadow-md max-w-6xl mx-auto my-6">
 
       <div className="flex flex-col items-center text-center">
         <img
