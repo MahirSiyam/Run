@@ -4,6 +4,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useLoaderData } from "react-router";
 import Cards from "../components/Cards";
+import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
   const datas = useLoaderData();
@@ -16,7 +17,21 @@ const Home = () => {
         <div className="hero-content flex-col lg:flex-row">
           <div className="w-9/12">
             <h1 className="text-5xl font-bold">
-              Join The Race, Push Your Limits.
+              <Typewriter
+                words={[
+                  "Join The Race, Push Your Limits.",
+                  "Run Strong, Finish Proud.",
+                  "Every Mile is a Milestone.",
+                  "Fuel Your Passion. Run a Marathon.",
+                  "Chase the Finish Line!",
+                ]}
+                loop={true}
+                cursor
+                cursorStyle="|"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
             </h1>
             <p className="py-6 text-gray-500">
               A marathon is a long-distance running race with an official
@@ -121,7 +136,6 @@ const Home = () => {
           ))}
         </div>
       </div>
-
     </div>
   );
 };
