@@ -3,219 +3,260 @@
     "id": 1,
     "name": "New York City Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1551927336-09d50efd69cd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtzSvRVXZ1TaDH8UC8oRKqsVhxDJtffXp8jA&s",
     "category": "International",
     "marathon_category": "42K",
     "date": "2025-11-02",
     "location": "New York, USA",
     "entry_fee": 250,
-    "description": "One of the world's largest marathons, running through all five boroughs of NYC."
+    "description": "One of the world's largest marathons, running through all five boroughs of NYC.",
+    "history": "The New York City Marathon, founded in 1970 by Fred Lebow and Vince Chiappetta, began as a modest race with 127 runners circling Central Park, with only 55 finishing. Initially a low-key event organized by the New York Road Runners, it expanded in 1976 to traverse all five boroughs—Staten Island, Brooklyn, Queens, the Bronx, and Manhattan—covering the standard 42.195 km distance. This transformation, inspired by the city’s diversity, turned it into a cultural phenomenon, drawing global attention. By 2019, it became the world’s largest marathon with 53,627 finishers. The race joined the World Marathon Majors in 2006, aligning with elite events like Boston and London. Notable moments include Grete Waitz’s nine women’s titles (1978–1988) and Bill Rodgers’ four men’s titles (1976–1979). The course record was set by Geoffrey Mutai (2:05:06, 2011, men) and Margaret Okayo (2:22:31, 2003, women). The marathon was cancelled in 2012 due to Hurricane Sandy and in 2020 due to the COVID-19 pandemic, marking rare interruptions. Known for its challenging course with bridges like the Verrazzano-Narrows and vibrant crowd support, it remains a bucket-list race held annually on the first Sunday of November."
   },
   {
     "id": 2,
     "name": "London Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1452626038306-9aae5e071dd3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFyYXRob258ZW58MHx8MHx8fDA%3D",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrVCcmcWWIru0p2PdB4rQyYKlRm2tr7qATiw&s",
+    "category": "International",
     "marathon_category": "42K",
     "date": "2025-04-27",
     "location": "London, UK",
     "entry_fee": 220,
-    "description": "A popular marathon through the heart of London, along the Thames."
+    "description": "A popular marathon through the heart of London, along the Thames.",
+    "history": "Launched in 1981 by Chris Brasher and John Disley, inspired by the New York City Marathon, the London Marathon began with 7,747 runners and has grown into one of the world’s most prestigious races. Its flat, scenic course through London’s landmarks, including Tower Bridge and Buckingham Palace, has made it a favorite for elite and amateur runners. Joining the World Marathon Majors in 2006, it has hosted world records, notably Paula Radcliffe’s 2:15:25 in 2003, the fastest women’s marathon time ever. Notable winners include Eliud Kipchoge, with multiple men’s titles, and Radcliffe, a dominant women’s champion. The race has raised millions for charity, a cornerstone of its identity. In response to geopolitical events, it banned Russian and Belarusian runners in recent years. Cancelled in 2020 due to COVID-19, it offered a virtual alternative. With approximately 50,000 participants annually, the marathon, held in April, is celebrated for its fast times, vibrant atmosphere, and inclusivity, including elite wheelchair races."
   },
   {
     "id": 3,
     "name": "Berlin Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1596460658047-1826d5921c56?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://dgalywyr863hv.cloudfront.net/challenges/Berlin-Marathon-2016-v1.png",
     "category": "International",
     "marathon_category": "42K",
     "date": "2025-09-28",
     "location": "Berlin, Germany",
     "entry_fee": 200,
-    "description": "A fast and flat course, great for breaking personal records."
+    "description": "A fast and flat course, great for breaking personal records.",
+    "history": "The Berlin Marathon, established in 1974 with 286 runners in West Berlin, has evolved into a global running powerhouse, renowned for its exceptionally fast, flat course. Initially a small event, it gained prominence after German reunification, with the course redesigned to pass landmarks like the Brandenburg Gate. It joined the World Marathon Majors in 2006 and is famous for hosting multiple world records, including Kelvin Kiptum’s 2:00:09 in 2023 for men and Tigist Assefa’s 2:11:53 in 2023 for women. Legends like Haile Gebrselassie and Tegla Loroupe have claimed victories here. The race’s predictable weather and minimal elevation make it a magnet for record attempts. Attracting around 45,000 runners annually, it was cancelled in 2020 due to COVID-19 but resumed with strict protocols. Held in September, Berlin remains a premier event for speed and prestige, with a vibrant international field."
   },
   {
     "id": 4,
     "name": "Tokyo Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1524646349956-1590eacfa324?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFyYXRob258ZW58MHx8MHx8fDA%3D",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZZU8gsv-6-dcgEYdlHZxvJeJMfj1bvCc-JQ&s",
     "category": "International",
     "marathon_category": "10K",
     "date": "2025-03-02",
     "location": "Tokyo, Japan",
     "entry_fee": 170,
-    "description": "A prestigious marathon attracting elite runners from around the world."
+    "description": "A prestigious marathon attracting elite runners from around the world.",
+    "history": "The Tokyo Marathon, launched in 2007, consolidated the Tokyo International Marathon and Tokyo-New York Friendship Marathon into a single, world-class event. Joining the World Marathon Majors in 2013, it attracts around 38,000 runners through a course featuring Tokyo Tower, Asakusa, and the Imperial Palace. The first winners were Daniel Njenga (Kenya, men) and Hitomi Niiya (Japan, women), with course records set by Wilson Kipsang (2:03:58) and Sarah Chepchirchir (2:19:47). Known for its meticulous organization and enthusiastic crowds, the race has grown in global appeal, though its early March date often brings cool, unpredictable weather. Cancelled in 2020 for general participants due to COVID-19, it allowed elite runners to compete. The marathon promotes environmental sustainability and cultural exchange, with initiatives like the Tokyo Marathon Foundation supporting community running. It remains a highlight of Asia’s marathon calendar."
   },
   {
     "id": 5,
     "name": "Boston Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1613937574892-25f441264a09?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFQjzCUdPfNOpnOKoSsoRMv5hfQpbFONfZ4w&s",
     "category": "International",
     "marathon_category": "42K",
     "date": "2025-04-21",
     "location": "Boston, USA",
     "entry_fee": 180,
-    "description": "The world's oldest annual marathon with a challenging course."
+    "description": "The world's oldest annual marathon with a challenging course.",
+    "history": "The Boston Marathon, founded in 1897, is the world’s oldest annual marathon, inspired by the marathon at the 1896 Athens Olympics. Organized by the Boston Athletic Association, it began with 15 runners and John J. McDermott’s victory in 2:55:10 over a 24.5-mile course. Standardized to 42.195 km in 1924, the point-to-point course from Hopkinton to Boston is known for its challenging hills, notably Heartbreak Hill. Women were officially included in 1972, though Roberta Gibb ran unofficially in 1966. The 2013 bombing, killing three and injuring over 260, marked a tragic moment, but the race rebounded in 2014. Course records include Geoffrey Mutai’s 2:03:02 (2011, men, wind-assisted) and Buzunesh Deba’s 2:19:59 (2014, women). Cancelled in 2020 due to COVID-19, it offered a virtual race. Part of the World Marathon Majors since 2006, it draws 30,000 runners each Patriots’ Day (third Monday in April)."
   },
   {
     "id": 6,
     "name": "Chicago Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3uZTNatsPGhVsgdKma6188NQ-Hl4b1ns-pw&s",
     "category": "International",
     "marathon_category": "21K",
     "date": "2025-10-12",
     "location": "Chicago, USA",
     "entry_fee": 205,
-    "description": "One of the six World Marathon Majors, held annually in the fall."
+    "description": "One of the six World Marathon Majors, held annually in the fall.",
+    "history": "The Chicago Marathon, launched in 1977 with 4,200 runners, has grown into a major global race, joining the World Marathon Majors in 2006. Its flat, loop course through Chicago’s diverse neighborhoods, starting and ending in Grant Park, is ideal for fast times. The race has hosted world records, including Khalid Khannouchi’s 2:05:38 (1999, men) and, more recently, Kelvin Kiptum’s 2:00:35 (2023, men) and Ruth Chepngetich’s 2:09:56 (2024, women). First winners were Dan Cloeter and Dorothy Doolittle (USA). Attracting nearly 40,000 runners, it was cancelled in 2020 due to COVID-19 but resumed in 2021. Known for its enthusiastic crowds and landmarks like the Willis Tower, the marathon, held in October, is a favorite for personal bests and elite performances, with strong community engagement through charity programs."
   },
   {
     "id": 7,
     "name": "Paris Marathon",
     "thumbnail": "https://plus.unsplash.com/premium_photo-1664304830629-bdac1397d53c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWFyYXRob258ZW58MHx8MHx8fDA%3D",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5BJdfsgwTBhCLAcnHl_Vu7Lkt1MoL9ghxvQ&s",
     "category": "International",
     "marathon_category": "10K",
     "date": "2025-04-06",
     "location": "Paris, France",
     "entry_fee": 160,
-    "description": "A scenic run past some of the most famous landmarks in Paris."
+    "description": "A scenic run past some of the most famous landmarks in Paris.",
+    "history": "The Paris Marathon, officially known as the Schneider Electric Marathon de Paris, was first established in 1976 with a modest field of approximately 1,500 runners, marking the beginning of a significant running tradition in France. Organized by the Amaury Sport Organisation (ASO), the event was inspired by the growing global marathon movement, particularly the New York City Marathon. The inaugural race, won by Jack Foster of New Zealand (men) and Pierrette Lafitte of France (women), set the stage for a race that would grow to become one of Europe’s premier marathons. The course, designed to showcase Paris’s iconic landmarks, starts at the Champs-Élysées, winds past the Louvre, Notre-Dame, the Eiffel Tower, and finishes near the Arc de Triomphe, offering runners a scenic journey through the city’s cultural heart. By 2024, the marathon had grown exponentially, attracting 54,175 finishers, a testament to its global appeal. In 2024, the Paris Marathon gained historic significance as it hosted the Olympic marathon events during the Paris Summer Olympics, with elite runners competing on a modified course that included Versailles, drawing unprecedented attention. Notable winners over the years include Benoit Zwierzchlewski (France), Lisa Ondieki (Australia), and more recently, Elisha Rotich (Kenya, 2:04:21, 2021, men’s course record) and Judith Jeptum (Kenya, 2:19:48, 2022, women’s course record). The race’s relatively flat course, with minor undulations along the Seine, makes it conducive to fast times, though cobblestone sections and occasional spring weather challenges, such as rain or wind, add complexity. The marathon was cancelled in 2020 due to the COVID-19 pandemic, a rare interruption, resuming in 2021 with enhanced safety protocols. Held annually in April, the event supports significant charitable causes and promotes sustainability, with initiatives like waste reduction and eco-friendly race materials. The Paris Marathon’s blend of athletic prestige, cultural immersion, and a vibrant atmosphere, with live music and enthusiastic crowds, draws runners from over 100 countries, cementing its status as a bucket-list race."
   },
   {
     "id": 8,
     "name": "Mumbai Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1613936360976-8f35cf0e5461?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFyYXRob258ZW58MHx8MHx8fDA%3D",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnHIx4E3thB7GfPvzIkbv1m_gE3OEwCKNGGg&s",
     "category": "National",
     "marathon_category": "21K",
     "date": "2025-01-19",
     "location": "Mumbai, India",
     "entry_fee": 30,
-    "description": "India's largest marathon attracting international and local runners."
+    "description": "India's largest marathon attracting international and local runners.",
+    "history": "The Mumbai Marathon, launched in 2004, is India’s premier marathon, fostering a running culture in a country where the sport was once niche. Attracting over 40,000 participants, its course features iconic landmarks like the Gateway of India and Marine Drive. Organized by Procam International, it has grown from 5,000 runners to a major event, with strong local and international participation. The race promotes health, community, and charity, raising significant funds annually. Notable winners include Indian elites like Ram Singh Yadav and international runners like Evans Rutto (Kenya). The January date brings warm weather, challenging runners, but the flat course supports strong performances. Held annually, it has inspired regional running events across India, cementing its role in the country’s sports landscape."
   },
   {
     "id": 9,
     "name": "Sydney Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1519703936-c4a3b3eb88e4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://pbs.twimg.com/profile_images/1666235986442096640/mMRqr30E_400x400.jpg",
     "category": "International",
     "marathon_category": "42K",
     "date": "2025-09-14",
     "location": "Sydney, Australia",
     "entry_fee": 150,
-    "description": "A beautiful course crossing the Sydney Harbour Bridge."
+    "description": "A beautiful course crossing the Sydney Harbour Bridge.",
+    "history": "The Sydney Marathon, established in 2000, began as a modest event but gained prominence, joining the World Marathon Majors in 2025 as the seventh member. Its scenic course, showcasing the Sydney Harbour Bridge, Opera House, and Bondi Beach, attracts around 20,000 runners. Initially part of the Blackmores Running Festival, it grew into a standalone marathon with a reputation for vibrant crowd support and a relatively flat course. Notable winners include local talents like Lisa Weightman and international runners like Elijah Biwott (Kenya). The race, held in September, benefits from mild spring weather, though occasional rain adds challenge. Cancelled in 2020 due to COVID-19, it resumed in 2021. The Sydney Marathon’s inclusion in the Majors reflects its growing global stature, blending athletic rigor with Australia’s coastal beauty."
   },
   {
     "id": 10,
     "name": "Cape Town Marathon",
     "thumbnail": "https://plus.unsplash.com/premium_photo-1664304814099-adb3a3255e7a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSEgzuBBbOq5wYfScdiU36whMAZU2ndW440w&s",
     "category": "International",
     "marathon_category": "10K",
     "date": "2025-10-19",
     "location": "Cape Town, South Africa",
     "entry_fee": 100,
-    "description": "Africa's first Abbott World Marathon Majors candidate race."
+    "description": "Africa's first Abbott World Marathon Majors candidate race.",
+    "history": "The Cape Town Marathon, founded in 2007, is South Africa’s leading marathon, drawing around 20,000 runners through a scenic course around Table Mountain, the V&A Waterfront, and Rondebosch. Organized by the Western Province Athletics, it was redesigned in 2023 to be flatter and faster, boosting its appeal for personal bests. The race has grown from a regional event to an international draw, with winners like Stephen Mokoka (South Africa) and Meseret Mengistu (Ethiopia) setting strong precedents. Its October timing offers favorable weather, though wind can pose challenges. Cancelled in 2020 due to COVID-19, it resumed with virtual and in-person options. The marathon promotes community engagement and tourism, highlighting Cape Town’s natural beauty and cultural vibrancy, making it a standout African race."
   },
   {
     "id": 11,
     "name": "Amsterdam Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1570004119777-2b1786b0e5bd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuGpkz2nAtUcMnR-j2rquCXBGpbOnVJX2xwQ&s",
     "category": "International",
     "marathon_category": "21K",
     "date": "2025-10-19",
     "location": "Amsterdam, Netherlands",
     "entry_fee": 120,
-    "description": "Flat and fast, with a route through the Rijksmuseum."
+    "description": "Flat and fast, with a route through the Rijksmuseum.",
+    "history": "The Amsterdam Marathon, started in 1975 with a small field, has grown into a major European race, attracting over 20,000 runners. Its flat, fast course, passing the Rijksmuseum, Vondelpark, and Amstel River, is ideal for personal bests. Course records are held by Lawrence Cherono (Kenya, 2:05:09) and Meseret Hailu (Ethiopia, 2:21:09). Organized by Le Champion, the race has evolved from a local event to a global attraction, with a vibrant atmosphere enhanced by Dutch crowds. Cancelled in 2020 due to COVID-19, it resumed in 2021 with safety protocols. Held in October, it combines athletic excellence with Amsterdam’s cultural charm, drawing runners from over 100 countries and offering a scenic, runner-friendly experience."
   },
   {
     "id": 12,
     "name": "Prague Marathon",
     "thumbnail": "https://images.unsplash.com/flagged/photo-1556746834-cbb4a38ee593?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://images.seeklogo.com/logo-png/11/1/prague-international-marathon-logo-png_seeklogo-111432.png",
     "category": "International",
     "marathon_category": "42K",
     "date": "2025-05-04",
     "location": "Prague, Czech Republic",
     "entry_fee": 130,
-    "description": "Famous for its historical scenery and cobblestone streets."
+    "description": "Famous for its historical scenery and cobblestone streets.",
+    "history": "The Prague Marathon, established in 1995 with around 1,000 runners, has grown to attract about 10,000 participants, organized by RunCzech. Its picturesque course crosses the historic Charles Bridge and passes Prague Castle and Old Town Square, blending athletic challenge with cultural immersion. Notable winners include Eliud Kiptum (Kenya) and Belaynesh Oljira (Ethiopia). The race, held in May, benefits from mild spring weather, though cobblestone sections add difficulty. Cancelled in 2020 due to COVID-19, it resumed in 2021 with virtual options. Known for its vibrant atmosphere and meticulous organization, the Prague Marathon has spurred a running boom in the Czech Republic, making it a beloved annual event for local and international runners."
   },
   {
     "id": 13,
     "name": "Bangkok Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1667791274080-49884d1f5f5c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTZ8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdFtkUyek09sW1Dfm42X42Kt68ttx-MXRfRQ&s",
     "category": "Regional",
     "marathon_category": "10K",
     "date": "2025-11-16",
     "location": "Bangkok, Thailand",
     "entry_fee": 60,
-    "description": "A night race featuring Bangkok's vibrant cityscape."
+    "description": "A night race featuring Bangkok's vibrant cityscape.",
+    "history": "The Bangkok Marathon, founded in 1987, is one of Asia’s prominent races, attracting around 15,000 runners through a course featuring the Grand Palace, Wat Arun, and Chao Phraya River. Organized by Amazing Field Co., it has grown from a regional event to a cultural showcase, with warm November weather challenging runners. Notable winners include Thai runners like Boonchu Jandacha and international athletes like Abraham Kiptum (Kenya). The race promotes tourism and fitness, with a flat course conducive to strong performances despite humidity. Cancelled in 2020 due to COVID-19, it resumed in 2021 with enhanced safety measures. Held annually in November, it combines Bangkok’s vibrant street life with athletic achievement, drawing a diverse field."
   },
   {
     "id": 14,
     "name": "Los Angeles Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1613206334619-c6bb9c203ef0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://pbs.twimg.com/profile_images/1278439875021361155/RcmWY9xo_400x400.jpg",
     "category": "National",
     "marathon_category": "21K",
     "date": "2025-03-16",
     "location": "Los Angeles, USA",
     "entry_fee": 170,
-    "description": "From the Dodger Stadium to Santa Monica Pier."
+    "description": "From the Dodger Stadium to Santa Monica Pier.",
+    "history": "The Los Angeles Marathon, launched in 1986 with 3,000 runners, has grown to attract around 25,000 participants. Its point-to-point course from Dodger Stadium to Santa Monica passes Hollywood landmarks, including the Walk of Fame and TCL Chinese Theatre. Organized by the McCourt Foundation, it features diverse terrain and enthusiastic crowds. Notable winners include Markos Geneti (Ethiopia) and Sule Utura (Ethiopia). The March timing offers mild weather, though occasional heat challenges runners. Cancelled in 2020 due to COVID-19, it resumed in 2021. The marathon supports charities and promotes Los Angeles’s cultural diversity, making it a popular West Coast race with a festive, star-studded atmosphere."
   },
   {
     "id": 15,
     "name": "Dubai Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1719299246550-fcb1765de878?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjzhnJV2859YgOOHJzZ7PePL10PEiBjw7o7A&s",
     "category": "International",
     "marathon_category": "42K",
     "date": "2025-01-24",
     "location": "Dubai, UAE",
     "entry_fee": 100,
-    "description": "Known for its flat course and prize money."
+    "description": "Known for its flat course and prize money.",
+    "history": "The Dubai Marathon, established in 1999, is known for its large prize money, including $1 million for a world record, and its flat, fast course along Jumeirah Beach Road. Attracting around 20,000 runners, it draws elite athletes like Bekele Debele (Ethiopia) and Worknesh Degefa (Ethiopia). Organized by the Dubai Sports Council, the January race benefits from cooler weather, ideal for fast times. Cancelled in 2021 due to COVID-19, it resumed in 2022 with strict protocols. The marathon showcases Dubai’s modern skyline, including the Burj Al Arab, and promotes the city as a global sports hub. Held annually, it combines luxury and athletic excellence, appealing to international runners seeking personal bests."
   },
   {
     "id": 16,
     "name": "Seoul Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1645822937278-5e84025713f3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjZ8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJNM4mNsJnByaoKvTLnd44YuZKlzshczZ9kg&s",
     "category": "International",
     "marathon_category": "21K",
     "date": "2025-03-16",
     "location": "Seoul, South Korea",
     "entry_fee": 90,
-    "description": "A well-organized marathon in the capital of South Korea."
+    "description": "A well-organized marathon in the capital of South Korea.",
+    "history": "The Seoul Marathon, dating to 1931, is one of Asia’s oldest, initially a 23.3 km race until standardized in 1964. Suspended during Japanese occupation, it resumed in 1954 and now attracts 20,000 runners. Organized by the Seoul Sports Council, its course passes Gyeongbokgung Palace and the Han River. Notable winners include Lee Bong-ju (South Korea) and Mulu Seboka (Ethiopia). The March race faces cool, sometimes windy conditions, with a flat course favoring fast times. Cancelled in 2020 due to COVID-19, it resumed in 2021. The marathon promotes fitness and Korean culture, drawing regional and international runners to a well-organized event with strong local support."
   },
   {
     "id": 17,
     "name": "Toronto Waterfront Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1719299180483-90a4b609a946?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE4P4dALnrQ-FD59sjnCYH5MQu49mv4zQY8w&s",
     "category": "International",
     "marathon_category": "42K",
     "date": "2025-10-19",
     "location": "Toronto, Canada",
     "entry_fee": 135,
-    "description": "Popular for its flat course and lake views."
+    "description": "Popular for its flat course and lake views.",
+    "history": "The Toronto Waterfront Marathon, launched in 1989, has grown from a small race to a major event with around 25,000 runners. Its flat course along Lake Ontario features the CN Tower and Toronto Islands. Course records are held by Philemon Rono (Kenya, 2:05:00, 2019) and Magdalyne Masai (Kenya, 2:22:16, 2019). In 2011, Fauja Singh completed it at age 100, becoming the oldest marathoner. Organized by Canada Running Series, the October race enjoys cool fall weather. Cancelled in 2020 due to COVID-19, it offered virtual options. The marathon supports charities and promotes Toronto’s vibrant waterfront, attracting runners from over 70 countries."
   },
   {
     "id": 18,
     "name": "Vienna City Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1596460456678-760115935178?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fG1hcmF0aG9ufGVufDB8fDB8fHww",
+    "logo": "https://play-lh.googleusercontent.com/vQCXsENdClkOmf9y7G40b13d3czvF9vEwVYpyslzSL7utu_iBt5brNR6YScnR46Xo-A",
     "category": "International",
     "marathon_category": "21K",
     "date": "2025-04-27",
     "location": "Vienna, Austria",
     "entry_fee": 110,
-    "description": "A classical city run with music along the route."
+    "description": "A classical city run with music along the route.",
+    "history": "The Vienna City Marathon, founded in 1984 with 794 runners, now draws around 40,000 participants across all events. Its course, passing the Vienna State Opera, Schönbrunn Palace, and Danube River, offers a blend of history and speed. Notable winners include Getu Feleke (Ethiopia) and Nancy Kiprop (Kenya). Organized by Verein Vienna City Marathon, the April race benefits from mild weather, though wind can affect times. Cancelled in 2020 due to COVID-19, it resumed in 2021. The marathon’s flat course and vibrant atmosphere make it a favorite for personal bests, promoting Vienna’s cultural heritage and drawing a diverse international field."
   },
   {
     "id": 19,
     "name": "Athens Marathon",
     "thumbnail": "https://images.unsplash.com/photo-1719299246423-8be7d5209bc5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA0fHxtYXJhdGhvbnxlbnwwfHwwfHx8MA%3D%3D",
+    "logo": "https://pbs.twimg.com/profile_images/773827330133426176/yO1v7yNA_400x400.jpg",
     "category": "Historical",
     "marathon_category": "42K",
     "date": "2025-11-09",
     "location": "Athens, Greece",
     "entry_fee": 95,
-    "description": "Run the original marathon route from Marathon to Athens."
+    "description": "Run the original marathon route from Marathon to Athens.",
+    "history": "The Athens Marathon, revived in 1896 for the first modern Olympics, follows the historic route from Marathon to Athens, ending at the Panathinaiko Stadium. Inspired by the legend of Pheidippides, it was won by Spyridon Louis (Greece, 2:58:50) in 1896. Women’s marathon racing began officially in 1984, with Joan Benoit (USA) winning at the Olympics. Organized by the Hellenic Athletics Federation, it attracts around 20,000 runners. The November race faces mild but sometimes rainy conditions, with a hilly course challenging runners. Cancelled in 2020 due to COVID-19, it resumed in 2021. Known as the Athens Classic Marathon, it blends historical significance with modern competition, drawing global participants."
   },
   {
     "id": 20,
     "name": "Honolulu Marathon",
     "thumbnail": "https://plus.unsplash.com/premium_photo-1663134231637-68651f643ffc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTYxfHxtYXJhdGhvbnxlbnwwfHwwfHx8MA%3D%3D",
+    "logo": "https://pbs.twimg.com/profile_images/1039095484873420806/qLI8qG_-_400x400.jpg",
     "category": "Recreational",
     "marathon_category": "10K",
     "date": "2025-12-14",
     "location": "Honolulu, Hawaii, USA",
     "entry_fee": 160,
-    "description": "A scenic marathon with no time limit, perfect for all runners."
+    "description": "A scenic marathon with no time limit, perfect for all runners.",
+    "history": "The Honolulu Marathon, started in 1973 with 167 runners, now attracts around 30,000 participants. Its course, starting at 5 AM near Ala Moana Beach Park and passing Waikiki and Diamond Head, is known for warm, humid conditions. Organized by the Honolulu Marathon Association, notable winners include Ibrahim Hussein (Kenya) and Miki Gorman (USA). In 2010, Gladys Burrill completed it at age 92, setting a record for the oldest female marathoner. Cancelled in 2020 due to COVID-19, it resumed in 2021 with virtual options. Held in December, the marathon promotes Hawaii’s aloha spirit and tourism, offering a scenic, flat course despite challenging weather."
   }
 ]

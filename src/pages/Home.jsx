@@ -9,9 +9,9 @@ const Home = () => {
   const datas = useLoaderData();
   // console.log(datas);
 
-
   return (
     <div className="bg-orange-50">
+      <title>Run.Home</title>
       <div className="hero  min-h-screen mb-10">
         <div className="hero-content flex-col lg:flex-row">
           <div className="w-9/12">
@@ -25,9 +25,11 @@ const Home = () => {
               Completing a marathon is a great personal achievement and often
               symbolizes perseverance and commitment.
             </p>
-            <button className="btn bg-orange-500 font-bold text-gray-900">Get Started</button>
+            <button className="btn bg-orange-500 font-bold text-gray-900">
+              Get Started
+            </button>
           </div>
-        
+
           <div className="carousel w-full">
             <div
               id="slide1"
@@ -102,9 +104,16 @@ const Home = () => {
       </div>
 
       <div className="border border-t-8 border-white">
-
-            <h1 className="text-center text-4xl font-bold mt-10 mb-5">All Category</h1>
-            <p className="text-center text-lg mb-20 text-gray-500">Marathon categories typically include Full Marathon (42.195 km), Half Marathon (21.097 km), 10K, 5K, and fun runs, catering to all fitness levels and age groups. Some events also feature wheelchair races, relay marathons, and junior categories to encourage inclusive participation.</p>
+        <h1 className="text-center text-4xl font-bold mt-10 mb-5">
+          All Category
+        </h1>
+        <p className="text-center text-lg mb-20 text-gray-500">
+          Marathon categories typically include Full Marathon (42.195 km), Half
+          Marathon (21.097 km), 10K, 5K, and fun runs, catering to all fitness
+          levels and age groups. Some events also feature wheelchair races,
+          relay marathons, and junior categories to encourage inclusive
+          participation.
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10 p-5">
           {datas.map((data) => (
@@ -112,6 +121,7 @@ const Home = () => {
           ))}
         </div>
       </div>
+
     </div>
   );
 };

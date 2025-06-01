@@ -4,6 +4,7 @@ import { Link } from "react-router";
 const ErrorPage = () => {
   return (
     <section className="flex items-center h-full p-16 dark:bg-gray-50 dark:text-gray-800">
+      <title>Run.Error</title>
       <div className="container flex flex-col items-center justify-center px-5 mx-auto my-8">
         <div className="max-w-md text-center">
           <h2 className="mb-8 font-extrabold text-9xl dark:text-gray-600">
@@ -15,7 +16,8 @@ const ErrorPage = () => {
           <p className="mt-4 mb-8 dark:text-gray-600">
             But dont worry, you can find plenty of other things on our homepage.
           </p>
-          <Link to={`/`}
+          <Link
+            to={`/`}
             rel="noopener noreferrer"
             href="#"
             className="px-8 py-3 font-semibold rounded dark:bg-orange-500 dark:text-gray-900"

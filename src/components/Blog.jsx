@@ -48,7 +48,8 @@ const MarathonNewsPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-base-200 p-4 font-serif">
+    <div className="min-h-screen bg-orange-50 p-4 font-serif">
+      <title>Run.Marathon News</title>
 
       <div className="bg-orange-500 text-gray-900 font-bold py-2 px-4 mb-4 rounded">
         <marquee>

@@ -38,16 +38,6 @@ const Register = () => {
     const email = form.email.value;
     const photoURL = form.photoURL.value;
     const password = form.password.value;
-    const teams = form.teams.checked;
-
-    if (!teams) {
-      return Swal.fire({
-        icon: "error",
-        title: "Please accept our teams and conditions",
-        text: "Something went wrong!",
-        footer: '<a href="#">Why do I have this issue?</a>',
-      });
-    }
 
     // console.log({name, email, photoURL, password});
 
@@ -76,6 +66,8 @@ const Register = () => {
 
   return (
     <div className="flex mb-5 flex-col md:flex-row justify-center items-center mt-3 px-4 md:px-8">
+
+      <title>Run.Register</title>
   <img
     className="w-full md:w-1/2 lg:w-[500px] mb-4 md:mb-0 md:mr-5"
     src={registerLogo}

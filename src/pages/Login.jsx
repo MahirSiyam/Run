@@ -84,6 +84,7 @@ const Login = () => {
   return (
     <div className="flex mb-5 flex-col md:flex-row justify-center items-center mt-10 md:mt-20 px-4">
   {/* Image for medium and larger screens */}
+  <title>Run.Login</title>
   <img
     className="w-full md:w-[400px] mb-6 md:mb-0 md:mr-10"
     src={logInLogo}

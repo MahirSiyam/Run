@@ -60,7 +60,7 @@ const Navber = () => {
             </li>
 
             <li>
-            <NavLink to={`/blog`} className={`font-bold text-gray-900`}>
+            <NavLink to={`/blog`}>
               Marathon News
             </NavLink>
           </li>
@@ -92,9 +92,16 @@ const Navber = () => {
               Marathon News
             </NavLink>
           </li>
+
+          <li>
+            <NavLink to={`/about`} className={`font-bold text-gray-900`}>
+              About
+            </NavLink>
+          </li>
         </ul>
       </div>
       <div className="navbar-end space-x-4">
+
 
         <div className="tooltip tooltip-bottom" data-tip={user ? user.email : ""}>
           <div className="avatar cursor-pointer">
