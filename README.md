@@ -4,7 +4,7 @@
 The Marathon Run Project is a web-based application designed to help users track, manage, and simulate marathon run events. It provides features to schedule runs, view event details, and possibly manage participant data. It offers a user-friendly interface and interactive experience.
 
 ## 🌐 Live URL
-[Visit the Live Project](https://marathon-run-project.netlify.app/)
+https://marathon-run-project.netlify.app/
 
 ## ✨ Key Features
 - 📅 Schedule and manage marathon events.
